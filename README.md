@@ -12,7 +12,7 @@
 
 ##html
 
-&lt;div&nbsp;id="div1"&nbsp;class="slider"&gt;&lt;/br&gt;
+&lt;div&nbsp;id="div1"&nbsp;class="slider"&gt;</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="picList"&gt;&lt;/br&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a1.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a2.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
