@@ -13,12 +13,17 @@
 ##html
 
 &lt;div&nbsp;id="div1"&nbsp;class="slider"&gt;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="picList"&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a1.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a2.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a3.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a4.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a5.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&nbsp;class="picList"&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a1.jpg"&gt;&lt;/a&gt;&lt;/li&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a2.jpg"&gt;&lt;/a&gt;&lt;/li&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a3.jpg"&gt;&lt;/a&gt;&lt;/li&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a4.jpg"&gt;&lt;/a&gt;&lt;/li&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a5.jpg"&gt;&lt;/a&gt;&lt;/li&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a6.jpg"&gt;&lt;/a&gt;&lt;/li&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="pointBox"&gt;</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</br>
+&lt;/div&gt;</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a6.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;&lt;/br&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="pointBox"&gt;&lt;/br&gt;
