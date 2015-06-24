@@ -30,10 +30,13 @@
 &lt;script type="text/javascript" src="mySlider.js"&gt;&lt;/script&gt;</br>
 然后实例化slider对象</br>
 
-var&nbsp;d2&nbsp;=&nbsp;new&nbsp;window.Slider();</br>
+&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;oDiv2&nbsp;=&nbsp;document.getElementById("div2");</br>
+&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;d2&nbsp;=&nbsp;new&nbsp;window.Slider();</br>
 &nbsp;&nbsp;&nbsp;&nbsp;d2.init(oDiv2,{</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width:"600px",</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animId:0,</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event:"mouseover"</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width:"100%",&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//容器宽度，（选配）默认500px，100%表示满屏</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;timeInterval:5000,&nbsp;&nbsp;//幻灯片播放速度，（选配）默认5000ms</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;autoPlay:true,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//是否自动播放，（选配）默认自动播放</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animId:0,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//动画id&nbsp;0-表示滑动效果&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1-表示淡入淡出&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2-表示上下滚动，（选配）默认为0</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event:"click"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//圆点事件类型，（选配）默认为click</br>
 &nbsp;&nbsp;&nbsp;&nbsp;});</br>
 
