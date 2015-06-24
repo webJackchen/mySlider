@@ -24,8 +24,16 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="pointBox"&gt;</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</br>
 &lt;/div&gt;</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a&gt;&lt;img&nbsp;src="img/a6.jpg"&gt;&lt;/a&gt;&lt;/li&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp;class="pointBox"&gt;&lt;/br&gt;
-&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;&lt;/br&gt;
-&lt;/div&gt;&lt;/br&gt;
+
+####js部分
+首先引入mySlider.js文件</br>
+&lt;script type="text/javascript" src="mySlider.js"&gt;&lt;/script&gt;</br>
+然后实例化slider对象</br>
+
+var&nbsp;d2&nbsp;=&nbsp;new&nbsp;window.Slider();</br>
+&nbsp;&nbsp;&nbsp;&nbsp;d2.init(oDiv2,{</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width:"600px",</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animId:0,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event:"mouseover"</br>
+&nbsp;&nbsp;&nbsp;&nbsp;});</br>
+
