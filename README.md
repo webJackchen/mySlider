@@ -6,7 +6,7 @@
 [QQ交流] 602071930</br>
 [版 本 号] ver0.0.1</br>
 未经本人允许，不得擅自用于商业用途</br>
-具体效果，请看demo<br/>
+
 
 ####使用方法
 
@@ -40,3 +40,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event:"click"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//圆点事件类型，（选配）默认为click</br>
 &nbsp;&nbsp;&nbsp;&nbsp;});</br>
 
+#####具体效果，请看demo
