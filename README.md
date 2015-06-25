@@ -40,4 +40,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event:"click"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//圆点事件类型，（选配）默认为click</br>
 &nbsp;&nbsp;&nbsp;&nbsp;});</br>
 
-#####具体效果，请看demo
+#####具体效果，请看http://webjackchen.github.io/mySlider/
