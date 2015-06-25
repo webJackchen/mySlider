@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>幻灯片组件试开发</title>
@@ -20,18 +20,18 @@
     </style>
 </head>
 <body>
-<div id="div1" class="slider">
-    <ul class="picList">
-        <li><a><img src="img/a1.jpg"></a></li>
-        <li><a><img src="img/a2.jpg"></a></li>
-        <li><a><img src="img/a3.jpg"></a></li>
-        <li><a><img src="img/a4.jpg"></a></li>
-        <li><a><img src="img/a5.jpg"></a></li>
-        <li><a><img src="img/a6.jpg"></a></li>
-    </ul>
-    <div class="pointBox">
-    </div>
-</div>
+<div id="div1" class="slider"></br>
+    <ul class="picList"></br>
+        <li><a><img src="img/a1.jpg"></a></li></br>
+        <li><a><img src="img/a2.jpg"></a></li></br>
+        <li><a><img src="img/a3.jpg"></a></li></br>
+        <li><a><img src="img/a4.jpg"></a></li></br>
+        <li><a><img src="img/a5.jpg"></a></li></br>
+        <li><a><img src="img/a6.jpg"></a></li></br>
+    </ul></br>
+    <div class="pointBox"></br>
+    </div></br>
+</div></br>
 
 <div id="div2" class="slider">
     <ul class="picList">
@@ -73,9 +73,11 @@ window.onload = function(){
     var oDiv2 = document.getElementById("div2");
     var d2 = new window.Slider();
     d2.init(oDiv2,{
-        width:"600px",
-        animId:0,
-        event:"mouseover"
+        width:"100%",      //容器宽度，（选配）默认500px，100%表示满屏
+        timeInterval:5000,  //幻灯片播放速度，（选配）默认5000ms
+        autoPlay:true,      //是否自动播放，（选配）默认自动播放
+        animId:0,            //动画id 0-表示滑动效果     1-表示淡入淡出     2-表示上下滚动，（选配）默认为0
+        event:"click"       //圆点事件类型，（选配）默认为click
     });
 
     var oDiv3 = document.getElementById("div3");
