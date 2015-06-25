@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <meta charset="utf-8">
     <title>幻灯片组件试开发</title>
@@ -15,23 +15,24 @@
 
 
         #div1,#div2,#div3{margin-bottom: 50px;}
+        #div1{margin-top: 20px}
         #div2{float: left;}
         #div3{float: right;}
     </style>
 </head>
 <body>
-<div id="div1" class="slider"></br>
-    <ul class="picList"></br>
-        <li><a><img src="img/a1.jpg"></a></li></br>
-        <li><a><img src="img/a2.jpg"></a></li></br>
-        <li><a><img src="img/a3.jpg"></a></li></br>
-        <li><a><img src="img/a4.jpg"></a></li></br>
-        <li><a><img src="img/a5.jpg"></a></li></br>
-        <li><a><img src="img/a6.jpg"></a></li></br>
-    </ul></br>
-    <div class="pointBox"></br>
-    </div></br>
-</div></br>
+<div id="div1" class="slider">
+    <ul class="picList">
+        <li><a><img src="img/a1.jpg"></a></li>
+        <li><a><img src="img/a2.jpg"></a></li>
+        <li><a><img src="img/a3.jpg"></a></li>
+        <li><a><img src="img/a4.jpg"></a></li>
+        <li><a><img src="img/a5.jpg"></a></li>
+        <li><a><img src="img/a6.jpg"></a></li>
+    </ul>
+    <div class="pointBox">
+    </div>
+</div>
 
 <div id="div2" class="slider">
     <ul class="picList">
@@ -61,32 +62,32 @@
 </body>
 <script type="text/javascript" src="mySlider.js"></script>
 <script type="text/javascript">
-window.onload = function(){
-    var oDiv1 = document.getElementById("div1");
-    var d1 = new window.Slider();
-    d1.init(oDiv1,{
+    window.onload = function(){
+        var oDiv1 = document.getElementById("div1");
+        var d1 = new window.Slider();
+        d1.init(oDiv1,{
         width:"100%",
-        animId:2
+            animId:2
 //        event:"mouseover"
-    });
+        });
 
-    var oDiv2 = document.getElementById("div2");
-    var d2 = new window.Slider();
-    d2.init(oDiv2,{
-        width:"100%",      //容器宽度，（选配）默认500px，100%表示满屏
-        timeInterval:5000,  //幻灯片播放速度，（选配）默认5000ms
-        autoPlay:true,      //是否自动播放，（选配）默认自动播放
-        animId:0,            //动画id 0-表示滑动效果     1-表示淡入淡出     2-表示上下滚动，（选配）默认为0
-        event:"click"       //圆点事件类型，（选配）默认为click
-    });
+        var oDiv2 = document.getElementById("div2");
+        var d2 = new window.Slider();
+        d2.init(oDiv2,{
+            width:"600px",      //容器宽度，（选配）默认500px，100%表示满屏
+            timeInterval:5000,  //幻灯片播放速度，（选配）默认5000ms
+            autoPlay:true,      //是否自动播放，（选配）默认自动播放
+            animId:0,            //动画id 0-表示滑动效果     1-表示淡入淡出     2-表示上下滚动，（选配）默认为0
+            event:"click"       //圆点事件类型，（选配）默认为click
+        });
 
-    var oDiv3 = document.getElementById("div3");
-    var d3 = new window.Slider();
-    d3.init(oDiv3,{
-        width:"600px",
-        animId:1
-//        event:"mouseover"
-    });
-}
+        var oDiv3 = document.getElementById("div3");
+        var d3 = new window.Slider();
+        d3.init(oDiv3,{
+            width:"600px",
+            animId:1,
+            event:"mouseover"
+        });
+    }
 </script>
 </html>
